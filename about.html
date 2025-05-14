@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nyaaxie Computer Shop</title>
+  <link rel="stylesheet" href="style.css">
+
+  <header>
+    <a href="index.html" class="logo">
+        <div class="logo-box">
+          <img src="img/logo.png" alt="Logo">
+        </div>
+        <span>Nyaaxie</span>
+      </a>
+      
+    <div class="nav-links">
+      <a href="index.html">Home</a> 
+      <a href="items.html">Items</a> 
+      <a href="about.html">About</a>
+      <a href="serv.html">Service</a>
+      <a href="contact.html">Contact</a>
+      <span class="user-icon">👤</span>
+    </div>
+  </header>
+  
+
+  <style>   
+ 
+.profile-content h1 {
+  font-size: 36px; 
+  font-weight: bold;
+
+  text-transform: uppercase; 
+  margin-bottom: 10px;
+}
+
+.profile-content h2 {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.profile-content h3 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #000000; 
+  margin-bottom: 15px;
+}
+
+    .about-section {
+      display: flex;
+      gap: 40px;
+      align-items: flex-start;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .profile-content {
+      flex: 1;
+    }
+
+    .profile-image-container {
+      flex: 0 0 400px;
+      position: relative;
+      margin-top: 30px;
+    }
+
+    .profile-image {
+      width: 100%;
+      border-radius: 10px;
+      transition: all 0.3s ease;
+    }
+
+
+    .profile-image-container:hover .image-overlay {
+      opacity: 1;
+    }
+
+    .profile-image-container:hover .profile-image {
+      transform: scale(1.02);
+    }
+
+    .about-divider {
+      border: 1px solid #eee;
+      margin: 2rem 0;
+    }
+
+    /* Button styles */
+    .cta-buttons {
+      margin-top: 2rem;
+      display: flex;
+      gap: 15px;
+    }
+
+    
+  </style>
+</head>
+
+<body>
+  <header>
+
+  </header>
+
+  <main>
+    <section class="about-section">
+      <div class="profile-content">
+        <h1>About Us</h1>
+        <h2>NYAAXIE'S COMPUTER SHOP</h2>
+        <h3>JAMES REY B. BRIZUELA</h3>
+        
+        <div class="about-divider"></div>
+
+        <p>
+          [HELLO! WELCOME] <br><br>
+          With over 10 years experience in tech industry, we provide professional 
+          computer solutions for both home and business needs. Specializing in 
+          custom PC builds, hardware upgrades, and enterprise solutions.
+          <br><br>
+          Certified Microsoft Partner and member of Philippine Computer Society.
+        </p>
+
+        <div class="cta-buttons">
+          <a href="items.html"><button>SHOP NOW</button></a>
+          <a href="contact.html"><button>CONTACT</button></a>
+        </div>
+      </div>
+
+      <div class="profile-image-container">
+        <img src="img/Owner.jpg" alt="Owner Photo" class="profile-image">
+      </div>
+    </section>
+  </main>
+</body>
+</html>
